@@ -12,7 +12,8 @@ const defaultSettings: ISettings = {
       elements: null
     }
   },
-  theme: DEFAULT_THEME
+  theme: DEFAULT_THEME,
+  migrations: []
 };
 
 export default defaultSettings;
