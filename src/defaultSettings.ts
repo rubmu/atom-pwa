@@ -13,7 +13,8 @@ const defaultSettings: ISettings = {
     }
   },
   theme: DEFAULT_THEME,
-  migrations: []
+  migrations: [0],
+  rateAppDialog: false
 };
 
 export default defaultSettings;

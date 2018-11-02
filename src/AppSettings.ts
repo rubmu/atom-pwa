@@ -63,10 +63,7 @@ class AppSettings {
 
     switch (migrateTo) {
       case 0:
-        settings = {
-          ...defaultSettings,
-          migrations: [0]
-        };
+        settings = defaultSettings;
       default:
         this.settings = settings;
         this.save();
