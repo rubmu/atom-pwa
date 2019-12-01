@@ -7730,6 +7730,11 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
+react-pinch-and-zoom@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/react-pinch-and-zoom/-/react-pinch-and-zoom-1.2.4.tgz#d63bdc4e7eb3b236a442780758af3f01728a34b2"
+  integrity sha512-b7a8T3gXstrACnMo2GbQ4UfDxj6IxD6pb2O5U0UrEiQQIC4fqBcDqBAZC2jjYVfuOflb0sQEp+j+8B/84SgQGg==
+
 react-portal@3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/react-portal/-/react-portal-3.2.0.tgz#4224e19b2b05d5cbe730a7ba0e34ec7585de0043"

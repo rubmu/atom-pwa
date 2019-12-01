@@ -1,6 +1,7 @@
 import autobind from "autobind-decorator";
 import * as React from "react";
 import { Spinner } from "../shared/spinner/Spinner";
+import PinchToZoom from "react-pinch-and-zoom";
 
 import "./PeriodicTable.scss";
 
@@ -61,7 +62,11 @@ class PeriodicTable extends React.PureComponent<
       );
     }
 
-    return <div className="periodic-table">{this.buildTable()}</div>;
+    return (
+      <PinchToZoom>
+        <div className="periodic-table">{this.buildTable()}</div>
+      </PinchToZoom>
+    );
   }
 
   private buildTable() {
